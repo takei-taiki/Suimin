@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4C4CA74123893F2800FE0EED /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C4CA74023893F2800FE0EED /* AppDelegate.swift */; };
+		4C4CA74623893F2800FE0EED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C4CA74423893F2800FE0EED /* Main.storyboard */; };
+		4C4CA74823893F2B00FE0EED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C4CA74723893F2B00FE0EED /* Assets.xcassets */; };
+		4C4CA74B23893F2B00FE0EED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C4CA74923893F2B00FE0EED /* LaunchScreen.storyboard */; };
+		4C4CA75623893F2B00FE0EED /* ____Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C4CA75523893F2B00FE0EED /* ____Tests.swift */; };
+		4C4CA76123893F2B00FE0EED /* ____UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C4CA76023893F2B00FE0EED /* ____UITests.swift */; };
+		4C4CA76F23ADE69200FE0EED /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C4CA76E23ADE69200FE0EED /* ViewController.swift */; };
+		4C4CA77123ADE6FF00FE0EED /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C4CA77023ADE6FF00FE0EED /* ViewController2.swift */; };
+		4C4CA77323ADE74C00FE0EED /* ViewController3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C4CA77223ADE74C00FE0EED /* ViewController3.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4C4CA75223893F2B00FE0EED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4C4CA73523893F2800FE0EED /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4C4CA73C23893F2800FE0EED;
+			remoteInfo = "睡眠時間";
+		};
+		4C4CA75D23893F2B00FE0EED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4C4CA73523893F2800FE0EED /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4C4CA73C23893F2800FE0EED;
+			remoteInfo = "睡眠時間";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4C4CA73D23893F2800FE0EED /* 睡眠時間.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "睡眠時間.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C4CA74023893F2800FE0EED /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4C4CA74523893F2800FE0EED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4C4CA74723893F2B00FE0EED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4C4CA74A23893F2B00FE0EED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4C4CA74C23893F2B00FE0EED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4C4CA75123893F2B00FE0EED /* 睡眠時間Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "睡眠時間Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C4CA75523893F2B00FE0EED /* ____Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "____Tests.swift"; sourceTree = "<group>"; };
+		4C4CA75723893F2B00FE0EED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4C4CA75C23893F2B00FE0EED /* 睡眠時間UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "睡眠時間UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C4CA76023893F2B00FE0EED /* ____UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "____UITests.swift"; sourceTree = "<group>"; };
+		4C4CA76223893F2B00FE0EED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4C4CA76E23ADE69200FE0EED /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4C4CA77023ADE6FF00FE0EED /* ViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
+		4C4CA77223ADE74C00FE0EED /* ViewController3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController3.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4C4CA73A23893F2800FE0EED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C4CA74E23893F2B00FE0EED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C4CA75923893F2B00FE0EED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4C4CA73423893F2800FE0EED = {
+			isa = PBXGroup;
+			children = (
+				4C4CA73F23893F2800FE0EED /* 睡眠時間 */,
+				4C4CA75423893F2B00FE0EED /* 睡眠時間Tests */,
+				4C4CA75F23893F2B00FE0EED /* 睡眠時間UITests */,
+				4C4CA73E23893F2800FE0EED /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4C4CA73E23893F2800FE0EED /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4C4CA73D23893F2800FE0EED /* 睡眠時間.app */,
+				4C4CA75123893F2B00FE0EED /* 睡眠時間Tests.xctest */,
+				4C4CA75C23893F2B00FE0EED /* 睡眠時間UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4C4CA73F23893F2800FE0EED /* 睡眠時間 */ = {
+			isa = PBXGroup;
+			children = (
+				4C4CA74023893F2800FE0EED /* AppDelegate.swift */,
+				4C4CA74423893F2800FE0EED /* Main.storyboard */,
+				4C4CA76E23ADE69200FE0EED /* ViewController.swift */,
+				4C4CA77023ADE6FF00FE0EED /* ViewController2.swift */,
+				4C4CA77223ADE74C00FE0EED /* ViewController3.swift */,
+				4C4CA74723893F2B00FE0EED /* Assets.xcassets */,
+				4C4CA74923893F2B00FE0EED /* LaunchScreen.storyboard */,
+				4C4CA74C23893F2B00FE0EED /* Info.plist */,
+			);
+			path = "睡眠時間";
+			sourceTree = "<group>";
+		};
+		4C4CA75423893F2B00FE0EED /* 睡眠時間Tests */ = {
+			isa = PBXGroup;
+			children = (
+				4C4CA75523893F2B00FE0EED /* ____Tests.swift */,
+				4C4CA75723893F2B00FE0EED /* Info.plist */,
+			);
+			path = "睡眠時間Tests";
+			sourceTree = "<group>";
+		};
+		4C4CA75F23893F2B00FE0EED /* 睡眠時間UITests */ = {
+			isa = PBXGroup;
+			children = (
+				4C4CA76023893F2B00FE0EED /* ____UITests.swift */,
+				4C4CA76223893F2B00FE0EED /* Info.plist */,
+			);
+			path = "睡眠時間UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4C4CA73C23893F2800FE0EED /* 睡眠時間 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C4CA76523893F2B00FE0EED /* Build configuration list for PBXNativeTarget "睡眠時間" */;
+			buildPhases = (
+				4C4CA73923893F2800FE0EED /* Sources */,
+				4C4CA73A23893F2800FE0EED /* Frameworks */,
+				4C4CA73B23893F2800FE0EED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "睡眠時間";
+			productName = "睡眠時間";
+			productReference = 4C4CA73D23893F2800FE0EED /* 睡眠時間.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4C4CA75023893F2B00FE0EED /* 睡眠時間Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C4CA76823893F2B00FE0EED /* Build configuration list for PBXNativeTarget "睡眠時間Tests" */;
+			buildPhases = (
+				4C4CA74D23893F2B00FE0EED /* Sources */,
+				4C4CA74E23893F2B00FE0EED /* Frameworks */,
+				4C4CA74F23893F2B00FE0EED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4C4CA75323893F2B00FE0EED /* PBXTargetDependency */,
+			);
+			name = "睡眠時間Tests";
+			productName = "睡眠時間Tests";
+			productReference = 4C4CA75123893F2B00FE0EED /* 睡眠時間Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4C4CA75B23893F2B00FE0EED /* 睡眠時間UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C4CA76B23893F2B00FE0EED /* Build configuration list for PBXNativeTarget "睡眠時間UITests" */;
+			buildPhases = (
+				4C4CA75823893F2B00FE0EED /* Sources */,
+				4C4CA75923893F2B00FE0EED /* Frameworks */,
+				4C4CA75A23893F2B00FE0EED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4C4CA75E23893F2B00FE0EED /* PBXTargetDependency */,
+			);
+			name = "睡眠時間UITests";
+			productName = "睡眠時間UITests";
+			productReference = 4C4CA75C23893F2B00FE0EED /* 睡眠時間UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4C4CA73523893F2800FE0EED /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "武井　太紀";
+				TargetAttributes = {
+					4C4CA73C23893F2800FE0EED = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					4C4CA75023893F2B00FE0EED = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 4C4CA73C23893F2800FE0EED;
+					};
+					4C4CA75B23893F2B00FE0EED = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 4C4CA73C23893F2800FE0EED;
+					};
+				};
+			};
+			buildConfigurationList = 4C4CA73823893F2800FE0EED /* Build configuration list for PBXProject "睡眠時間" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4C4CA73423893F2800FE0EED;
+			productRefGroup = 4C4CA73E23893F2800FE0EED /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4C4CA73C23893F2800FE0EED /* 睡眠時間 */,
+				4C4CA75023893F2B00FE0EED /* 睡眠時間Tests */,
+				4C4CA75B23893F2B00FE0EED /* 睡眠時間UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4C4CA73B23893F2800FE0EED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C4CA74B23893F2B00FE0EED /* LaunchScreen.storyboard in Resources */,
+				4C4CA74823893F2B00FE0EED /* Assets.xcassets in Resources */,
+				4C4CA74623893F2800FE0EED /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C4CA74F23893F2B00FE0EED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C4CA75A23893F2B00FE0EED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4C4CA73923893F2800FE0EED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C4CA76F23ADE69200FE0EED /* ViewController.swift in Sources */,
+				4C4CA74123893F2800FE0EED /* AppDelegate.swift in Sources */,
+				4C4CA77323ADE74C00FE0EED /* ViewController3.swift in Sources */,
+				4C4CA77123ADE6FF00FE0EED /* ViewController2.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C4CA74D23893F2B00FE0EED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C4CA75623893F2B00FE0EED /* ____Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C4CA75823893F2B00FE0EED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C4CA76123893F2B00FE0EED /* ____UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4C4CA75323893F2B00FE0EED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4C4CA73C23893F2800FE0EED /* 睡眠時間 */;
+			targetProxy = 4C4CA75223893F2B00FE0EED /* PBXContainerItemProxy */;
+		};
+		4C4CA75E23893F2B00FE0EED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4C4CA73C23893F2800FE0EED /* 睡眠時間 */;
+			targetProxy = 4C4CA75D23893F2B00FE0EED /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4C4CA74423893F2800FE0EED /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4C4CA74523893F2800FE0EED /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4C4CA74923893F2B00FE0EED /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4C4CA74A23893F2B00FE0EED /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4C4CA76323893F2B00FE0EED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4C4CA76423893F2B00FE0EED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4C4CA76623893F2B00FE0EED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "睡眠時間/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "--T.----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4C4CA76723893F2B00FE0EED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "睡眠時間/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "--T.----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4C4CA76923893F2B00FE0EED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "睡眠時間Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "--T.----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/睡眠時間.app/睡眠時間";
+			};
+			name = Debug;
+		};
+		4C4CA76A23893F2B00FE0EED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "睡眠時間Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "--T.----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/睡眠時間.app/睡眠時間";
+			};
+			name = Release;
+		};
+		4C4CA76C23893F2B00FE0EED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "睡眠時間UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "--T.----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "睡眠時間";
+			};
+			name = Debug;
+		};
+		4C4CA76D23893F2B00FE0EED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "睡眠時間UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "--T.----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "睡眠時間";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4C4CA73823893F2800FE0EED /* Build configuration list for PBXProject "睡眠時間" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C4CA76323893F2B00FE0EED /* Debug */,
+				4C4CA76423893F2B00FE0EED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4C4CA76523893F2B00FE0EED /* Build configuration list for PBXNativeTarget "睡眠時間" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C4CA76623893F2B00FE0EED /* Debug */,
+				4C4CA76723893F2B00FE0EED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4C4CA76823893F2B00FE0EED /* Build configuration list for PBXNativeTarget "睡眠時間Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C4CA76923893F2B00FE0EED /* Debug */,
+				4C4CA76A23893F2B00FE0EED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4C4CA76B23893F2B00FE0EED /* Build configuration list for PBXNativeTarget "睡眠時間UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C4CA76C23893F2B00FE0EED /* Debug */,
+				4C4CA76D23893F2B00FE0EED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4C4CA73523893F2800FE0EED /* Project object */;
+}
