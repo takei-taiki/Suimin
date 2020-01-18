@@ -21,9 +21,11 @@ class ViewController: UIViewController {
     var kishouDate: Date!
     var shushinDate: Date!
     
+    var SuiminTime: [String] = []
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
         // 変更を加えた
         
         
@@ -51,7 +53,7 @@ class ViewController: UIViewController {
             let second = (seconds % 3600) % 60
             
             intervalLabel.text = String("\(hour)時間\(minute)分\(second)秒")
-            
+            SuiminTime.append (String("\(hour)時間\(minute)分\(second)秒"))
             
         } else {
             shushinDate = Date()
