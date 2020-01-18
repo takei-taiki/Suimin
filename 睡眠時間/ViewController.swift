@@ -24,6 +24,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        // 変更を加えた
         
         
         // Do any additional setup after loading the view.
